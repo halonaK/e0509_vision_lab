@@ -1,0 +1,12 @@
+# 초기 추정값: 줄자와 각도기로 '대충' 잰 카메라 위치 (캘리브레이션 전)
+# base_link -> camera_link
+#   위치 [m], 자세 [deg] (ROS roll-pitch-yaw).  실제 값과 몇 cm, 몇 도 차이가 있습니다.
+#   -> click_to_base 에서 오차를 확인한 뒤, 4단계 캘리브레이션으로 정확한 값을 구합니다.
+parent_frame: base_link
+child_frame: camera_link
+x: 0.98
+y: 0.37
+z: 0.74
+roll_deg: 0.0
+pitch_deg: 46.0
+yaw_deg: -150.5
